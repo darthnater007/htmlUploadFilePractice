@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Practice</title>
+   <script src="filePracticeJS.js" type="application/javascript"></script>
+</head>
+<body>
+    <h1>Upload a file</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input id="title" type="text" placeholder="Title">
+        <input file type="file" accept=".pdf" placeholder="Select a PDF file">
+        <button onclick="submit()">Submit</button>
+    </form>
+</body>
+</html>
+<!--I quickly found that there's no way to do what I want here without a server, but at least I found the input type that I need for future reference-->
